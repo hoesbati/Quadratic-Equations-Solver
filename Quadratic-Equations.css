@@ -1,0 +1,86 @@
+body{
+    direction:ltr;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    font:14px / 2.1em BZar,Tahoma,arial;
+    background:#ddd url(bg.png)repeat;
+}
+.box{
+    border-width: 3px 8px 3px 3px;
+    border-style: solid;
+    border-color: #9b59b6;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 5px;
+    width: 500px;
+    background: #F9690E;
+    margin: 10px auto;
+    text-align: center;
+}
+Input[type=number]{width=15}
+Input[type=button]{background:#00AAFF}
+
+
+
+@media screen and (max-width:900px){
+    .box{width:98%}
+}
+button,input[type=button],input[type=reset],input[type=submit]{
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+    border:1px #ccc solid;
+    font:12px tahoma;
+    padding:3px 10px;
+    border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    cursor:pointer;
+    margin:2px;
+    transition:0.3s;
+    -o-transition:0.3s;
+    -moz-transition:0.3s;
+    -webkit-transition:0.3s;
+    -khtml-transition:0.3s;
+}
+button:hover,input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover{
+    background-position:0px -24px;
+}
+input[type=text],input[type=password],input[type=email],input[type=file],input[type=search],input[type=url]{
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+    border:1px #ccc solid;
+    font:12px tahoma;
+    padding:5px 10px;
+    border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    margin:2px;
+    transition:0.3s;
+    -o-transition:0.3s;
+    -moz-transition:0.3s;
+    -webkit-transition:0.3s;
+    -khtml-transition:0.3s;
+}
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=file]:focus,input[type=search]:focus,input[type=url]:focus{
+    background-position:0px -26px;
+}
